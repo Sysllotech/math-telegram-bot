@@ -266,7 +266,7 @@ class MathBot:
 # Запуск бота
 if __name__ == "__main__":
     # Получите токен у @BotFather в Telegram
-    BOT_TOKEN = os.environ.get("8528078230:AAFf1YQJ7fRbzlO_VYR_TKpUTKk7V37b7Rk")
+    BOT_TOKEN = os.environ.get('8528078230:AAFf1YQJ7fRbzlO_VYR_TKpUTKk7V37b7Rk')
     
     bot = MathBot(BOT_TOKEN)
     bot.run()
