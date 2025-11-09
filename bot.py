@@ -1,7 +1,6 @@
 import logging
 import random
 import json
-import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 from database import Database
@@ -265,6 +264,7 @@ class MathBot:
 
 # Запуск бота
 if __name__ == "__main__":
+    import os
     # Получите токен у @BotFather в Telegram
     BOT_TOKEN = os.environ.get('8528078230:AAFf1YQJ7fRbzlO_VYR_TKpUTKk7V37b7Rk')
     
